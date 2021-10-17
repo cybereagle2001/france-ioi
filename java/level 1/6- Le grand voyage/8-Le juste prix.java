@@ -9,10 +9,10 @@ class Main
       int nbMarchands = entrée.nextInt();
       
       int infini = 1000 * 1000;
-      int minPrix = infini, posMinPrix = -1;
+      int minPrix = infini, posMinPrix = -1,prix;
       for (int pos = 1; pos <= nbMarchands; pos = pos + 1)
       {
-         int prix = entrée.nextInt();
+         prix = entrée.nextInt();
          if (prix <= minPrix)
          {
             minPrix = prix;
